@@ -1,0 +1,22 @@
+CONTROL FLOW STATEMENT
+>Example of controlflow statements include:
+
+b) Decision control flow statements
+    >Depend on whether the condition is true or False , the disition structure may skip the
+     execution of an entire block of statements or even execute one block of statements instead
+     of other
+
+
+     >Example
+             i) oif statement 
+             ii) if...else
+             iii) if..elif...else
+             iv) ternary operator
+             v) match statement
+c) Looping / iteration
+   > Looping means being able to repeat the execution of a code block more than once , accoding 
+   to the loop parameters given.
+   >in python we have only two types of loops 
+    i) for loop 
+    ii) while loops
+    iii)break and continue 

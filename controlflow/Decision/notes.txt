@@ -1,0 +1,126 @@
+DECISION CONTRAL FLOW STATEMENT
+> The execution of a block of statement under the if header depends on evaluation of a
+conditional statement of which if it is True , the statement under it is executed 
+oif False the default condition is evaluated under which the statement gets executed .
+>They include :
+i) if statement 
+ii)if ...else statement 
+iii) if ...elif..else statements
+iv) Nested if statement 
+v) Ternary statement 
+vi)Match statement 
+
+i) if statements
+    if condition:
+        inside block 
+
+    outside outside
+
+> In oder for the inside block to be executed the outside block must be true
+> F the condition is False the inside block is skipped and outside block is executed. 
+>Execution of block statement depend upon evaluation of the statement. 
+> The inside block is indented hence part of if block/statement
+>The inside must be followed by full colon
+
+
+
+ii) if ...else statement 
+>It has two option in that the situation the condition statement in the 
+   if header block is false ,the else part is evaluated and the statement under it is executed.
+
+if condition:
+    block of statement
+
+else:
+   block statement 
+
+In order for a statement to belong to either if block or else block ,it has to be indented 
+ inside it 
+> The indentation is usually four spaces or one tab.
+
+
+iii) if ...elif ...else statement 
+> This has three option to  be considerd that is (if) ,(elif) and (else) .
+>if the condition statement on if header (if ) , then the (elif) is considered also if 
+the conndition is false now the default (else) part is considered
+
+if condition:
+  block of statement 
+
+elif condition:
+ block of statement 
+
+ 
+ else: 
+    block statement 
+     
+iv) Nest if statement 
+>this is multiple if statement stacked inside each other and evaluation happens 
+in the order inwhich they are stacked.
+>In situation one (if) block is false ,its (else) counterpart is evaluated and statement under it is displayed.
+
+If condition :
+   statement block 
+
+   if condition :
+    statement block 
+
+   if condition:
+     statement block
+
+
+      else:
+        statement block 
+           
+
+else:
+     statement block
+
+
+v) Ternary operators/conditional expression
+- Looks like its a short in-line version of an if statement.
+- Used usually when you want to choose between two values, depending on some condition
+It makes it easier & more readable to use the ternary instead of a full if statement
+- Example:
+            order_total = 247
+
+            # classic if/else form
+            if order_total > 100:
+              discount = 25
+
+            else:
+              discount = 0
+
+            print(order_total, discount)
+
+            # ternary version
+            discount = 25 if order_total > 100 else 0
+            print(order_total, discount)
+
+    if age >= 18:
+        status = "Adult"
+    else:
+        status = "Minor"
+
+    # You write THIS:
+    status = "Adult" if age >= 18 else "Minor"
+
+vi) match statement
+- the match statement compares a value against one or more patterns, and then it 
+executes the code block associated with the first pattern that matches
+
+# match statement
+working_days = 9
+
+match working_days:
+    case 1 | 2 | 3 | 4 | 5:
+        print("That is a working day")
+    
+    case 6:
+        print("That is a Weekend")
+
+    case 7:
+        print("That is a day you choose what to do")
+
+    case _:
+        print("That is not a valid day number")
