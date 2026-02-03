@@ -1,0 +1,67 @@
+OPERATORS
+>Operators are symbols, such as+,-,=,< and > that perform certain mathematical or 
+ logical operation to manipulate data values and produce a result based on some rules. 
+>They assist in arithmetic and logical operation on values
+>An operator manipulates the data values called operands
+example:
+        4+6
+        -here 4 and 6 are operanders
+        -operanders can be variable name also 
+        Example:
+            t=6
+            u=7
+            total=t+u 
+            as you can see t and u are operandersand + is the Operators.
+    = is an operator  
+
+a)arithmetics operanders
+Aarithmetic operator are used to execut arithmetic operations such as addition  ,subtraction
+,division,multiplication
++ addition
+- subtraction
+* multiplication
+/ division
+// floor division
+** exponention
+%    modulus
+
+
+b)comparison operators 
+-When the vaalue of two operands are to be compared then comparison operators are used.
+-The output of this comparison operators is always Boolean values,either True or false
+The operands can be Numbers or Strings or Boolean values. Strings are compared letters 
+by letter using their ASCII values ,thus, "p" is less than "Q" ,"As" is greater than "asher.
+ 
+> greater than 
+< less than 
+>= greater than or equal to
+<= less than or equal to
+!= not equal to 
+== egual to
+
+c) Logical operators 
+- they are used for comparing or negating the logic values of their operands
+and to return the resulting logical value.
+-The values of an operands on which the logical operators operate evaluate to either True or False.
+-The result of the logical operator is always a Boolean value ,True or false
+
+ and operators
+ or operators
+ not operators
+
+ d)Assignment operators 
+  This is a symbol of assigment operators "="
+
+We have to command assignment where assigment operators are 
+  combined with arithmetic operators:
+  += addition assignment
+  -= subtraction assignment
+  *= multiplication assignment
+  /= division  assignment
+  %= modulus  assignment
+  //=floor division assignment
+  **=exponention assignment
+
+
+
+
