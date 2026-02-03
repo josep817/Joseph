@@ -1,0 +1,29 @@
+PRINTING OUTPUT
+>print ()funtion  allows a program to display text onto the screen or console
+>One thing about printing function is that, it converts every thing to be string 
+and any thing tha is not already a string is automaticaly converted into a string .
+>Python has several ways added to print () to assist in displaying nicely
+fomattedd test. They include;
+a)f-strings
+b)str.format()
+
+95z<92A5
+
+a)f-strings
+>The "f" strings is flexed inside the print() statment bracket,followed by speach marks.
+>The variables is enclosed in the current bracket{}.
+>An "f" at the begining of the string tells python to allow any currently valid variable
+ names within the string.
+ >The syntax include:
+     print(f"{}")
+     print(f"{variable_name}")
+     In the above the variable is placed inside the curly backets to prevent 
+     it from being converted to strings
+b)str.format()
+>The syntax:
+   print("{0},{1}".format (variable_one,variable_two))
+   Here 0, 1 are indexes.Indexes usually start from 0.In this example ,the variables 
+   will be replaced in the specified indexes,that is variable_one will replace index 0 and 
+   variable_two will replace index 1
+
+
