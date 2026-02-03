@@ -1,0 +1,56 @@
+cmd command
+a)dir
+-This command is used to list the foldes and files in current direction
+-another name for this folder is - directory
+-example
+c:\Users\EUNICE>dir
+-it will list all the content inside "eunice" directory/folder.
+-current directory is the name just before ">"
+"Users" is a root folder where every account represent folders reside.
+Example: inside the root folder "Users" we have an account represented by a folder
+called"eunice".
+-whenever you see "<DIR." just before the name it means the name following this flag
+is a folder/directory.
+b) cls
+-This command is used to clear the screen.
+-To use it type the following command.
+-Example:
+         C:\User\eunice>cls
+c)cd
+-This command is used for navigation ,it stands for "current direction",it is used to change
+the current directory, to the one specified after the command.
+       C\Users\eunice>cd <FOLDER>
+       <folder>-this can be any folder.
+       C:\Users\eunise>cd Destop or C:\Users\eunice>cd Document
+       You will get >
+       C:\Users\eunice\Destop> or C:\Users\eunice\Document>
+       here "Destop" are the new current folders since they are following by   
+       ">"
+-To navigate backwards that is to previous folder we use the "CD..."
+c:\Users\eunice\Destop> cdC:\User\eunise>
+d)mkdir\mkdir
+-This command stands for "make directory/folder".
+-It is usedto creat a folder/directory.
+C:\Users\eunice\Destop>mkdir <folder name>
+C:\Users\eunice\Destop>mkdir py
+C:\Users\eunice\Destop>md p1 p2
+"md"-creates multiple folders at the same time.
+e)echo command 
+-This command is ussed to create a file .
+-Example:
+C:\Users\eunise\Destop\py>echo >intro.txt
+To run python programs, type the following commands
+     python filename.py
+     python filess have an extention of ".Py"
+f)Every python file must end with an extentionof ".py"
+example: 
+        test .py
+-In oder to execute the file ,you must write something inside the file fo visual studio.
+-To save the file type the following command:
+ctrl + same
+-To run python file from the command promp, type the following command. 
+    python filename.py
+-The program wil be executed .
+
+
+prinr(Hello world)

@@ -1,0 +1,31 @@
+Comments
+They are the text that describe what the program is all about.
+They do not get executed by the interprater
+There are ways yuo include Comments
+a)single line comments 
+it is represented by # at the begin on the line 
+Example
+#this is a single line comments
+#this is a single line comments
+b)multiple comments 
+   It s represented by 
+   """
+   This bouble triple
+   multiline
+   comment
+   """
+
+   '''  '''
+   This single triple
+   multilines
+   comment
+   '''
+commands.
+
+ctrl + c    copy
+ctrl + v    pasting
+ctrl + x    cut 
+ctrl + s    saving
+-Python file must end with an extentionof ".py"
+-any file with the extention of "py" can be executed with the following command 
+    C:\Users\eunise>python filename.py

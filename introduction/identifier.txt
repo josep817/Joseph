@@ -1,0 +1,73 @@
+IDENTIFIYER
+>It is a name you guese that is use in naming things in python
+  e.g Variables names ,user defined functions ,class names 
+  >it is used as an adress for memory location.
+  >In oder to creat variable identifier the following rules must be followed.
+>Rules for naming identifier:
+
+a)Identifier can be combination of letters (A-Z,digits0-9, underscore).
+Exeption:
+    i)You can not begin with a digit but the digit can be at the end.
+    90total      total90
+    ii)Underscore can begin and also applied between two words 
+    _results       total_results       total _ marks _ 2024 total_marks  
+    Iii)space between two or three words is not allowed.
+    Example:  
+    total_marks >wrong 
+    total_marks >correct
+
+b)Identifier names should be meaningful, relating to what you are coding.
+c)Special symbols cannot be part of an identifier.
+Example:@ $ % ! ^ & * () =
+total@
+$_result
+!marks
+d)Identifier can be small or small individual letter of alphabet.
+Example: A or a 
+tm
+total_marks
+e)Reserved words
+   -This ate words with special meanig in pythonidentifier, they cannot be used individually
+   as identifiers,instead combine with another word.
+   print,input,if,else,for,while,true,false,and or not.
+
+   Task: Creat 10 identifiers of your choise.
+
+   1.score100
+   2.school_rank
+   3.marks_scored
+   4.games_recods
+   5.wins10
+   6.game_draw
+   7.starts1000
+   8.reading_notes
+   .9.volume5
+   10.steps10
+
+VARIABLES   
+>It is adressed to a memmory location.
+>It is used to retreve values from  the memmory location
+
+>Three items are needed
+1.valid identifier
+2.assignment operator (=)
+3.value-number ,string
+
+Syntax
+    valid identifie= values
+    a) valid _ identifier 
+      represent the valid name you have created following the
+       rules for naming identifier
+    b)assignmentoprator (=)  
+    I is used to take values from the right and store on the 
+    storage location represent by the address (valid _ identifier )
+    on the left.
+Retreve values
+>To represent values from memmory location we use
+print()funtion which acts as a messenger that retrieve
+values from memory locationwhose addressis the variable name 
+The Syntax:
+     print(variable_name)
+total=100
+
+print(total)     
